@@ -20,3 +20,29 @@ h3{
 	height: 10mm;
 	border-radius: 50%;
 }
+
+table
+{
+    background-color: lightblue;
+    color: black;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    border: 2px black solid;
+}
+
+td,th
+{
+    border: 1px black solid;
+}
+
+th
+{
+    background-color: darkblue;
+    color: white;
+}
+
+td
+{
+    font-size: .85em;
+}
