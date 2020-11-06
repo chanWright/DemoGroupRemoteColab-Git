@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Git and SSH</title>
+	<link href="style.css" rel="stylesheet">
+</head>
+<body>
+	<nav>
+      <a href="index.html">Home</a>
+      <a href="mergingBranching.html">Branching/Merging</a>
+      <a href="commandLineUtil.html">Command Line Utility</a>
+      <a href="ssh.html">Git and SSH</a>
+    </nav>
+	<h1>
+		Git and SSH
+		<img src="chandlerProfile.jpg"  alt="Chandler Picture" class="img-circle" id="profile_picture" >
+	</h1>
+	<h2>
+		Introduction to SSH
+	</h2>
+	<h3>
+	  SSH, or Secure Shell, allows you to connect to remote computers easily and securily.  This is normally done in the context of connecting to another computer's command line, but an SSH session can transfer any data you want, including Git data.  Normally, you need to enter your username and password when pushing your changes to GitHub.  Since this can get annoying when you have a long password and push to the cloud often, setting up SSH can be beneficial as it allows you to push your changes without needing to enter your password
+	</h3>
+	<h2>
+		Setting up SSH
+	</h2>
+	<p>(Note: this guide assumes you are using a Linux-based OS or Windows Subsystem for Linux)</p>
+	<h3>
+	  If you are using SSH for the first time, you will want to begin by opening a terminal emulator and running the command "ssh-keygen" and accepting the default options.  This will create two files in your .ssh folder: id_rsa and id_rsa.pub.  id_rsa.pub is your SSH public key, and is the key we will be sharing with GitHub in a moment.  If you run "cat ~/.ssh/id_rsa.pub", the contents of the file will be printed onto the terminal.  Go ahead and copy that text to the clipboard.
+	  <br/>Now, go to github.com/settings.  Click on "SSH and GPG keys", and click on "New SSH Key".  Give the key a title that will help you easily identify it (useful if you work on multiple computers), and then paste your public key into the textbox.
+	  <br>The last step is to go back to your terminal and run "ssh -T git@github.com".  If everything has been configured correctly, you should receive a friendly greeting telling you that you have successfully authenticated.  If you get an error, review the steps and try again.
+	  <br>Now that SSH is successfully configured, you will now notice that GitHub now gives you the option to clone repositories via SSH in addition to HTTPS.  Use this option when cloning repositories, and the next time you push changes to the cloud, you'll notice that you won't be prompted for a password.  Congratulations!
+	</h3>
+	  
+	<p>
+	  For more information, please see GitHub's guides on <a href=https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/connecting-to-github-with-ssh>Generating SSH Keys</a> and <a href=https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github>Common SSH issues</a>
+	</p>
+</body>
+</html>
