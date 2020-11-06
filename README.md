@@ -3,7 +3,7 @@ Users:
 * Joseph Dobelmann
 * Lindsey Fares
 * Terrence Hughes
-* Chandler Wright: Individual PresentationL: https://use.vg/mnY9sn
+* Chandler Wright: Individual Presentation: https://use.vg/mnY9sn
 
 This repo is for a group assignment in our Web Apps and Services class
 It will updated overtime as we learn more about remote collaboration and advanced ways of using git
