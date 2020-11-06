@@ -4,7 +4,7 @@ Users:
 * Lindsey Fares
 * Terrence Hughes
 * Chandler Wright
-![Chandler Wright](https://github.com/chanWright/DemoGroupRemoteColab-Git/blob/main/chandlerProfile.jpg?raw=true)
+![Chandler Wright](https://github.com/chanWright/DemoGroupRemoteColab-Git/blob/main/chandlerProfile.jpg =100x)
 
 
 This repo is for a group assignment in our Web Apps and Services class
