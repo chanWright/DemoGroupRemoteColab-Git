@@ -1,7 +1,7 @@
 # DemoGroupRemoteColab-Git
 Users:
 * Joseph Dobelmann
-* Lindsey Fares
+* Lindsey Fares: Individual Presentation: shorturl.at/eoHJ7
 * Terrence Hughes
 * Chandler Wright: Individual Presentation: https://use.vg/mnY9sn
 
