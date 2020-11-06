@@ -14,3 +14,9 @@ a{
 h3{
 	background-color: lightblue;
 }
+#profile_picture{
+	align-self: center;
+	width: 10mm;
+	height: 10mm;
+	border-radius: 50%;
+}
